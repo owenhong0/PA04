@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cs3500.pa03.model.CompTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-06-12T21:13:13" hostname="Owens-MacBook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="successfulHits()" classname="cs3500.pa03.model.CompTest" time="0.001"/>
+  <testcase name="endGame()" classname="cs3500.pa03.model.CompTest" time="0.0"/>
+  <testcase name="name()" classname="cs3500.pa03.model.CompTest" time="0.0"/>
+  <testcase name="setup()" classname="cs3500.pa03.model.CompTest" time="0.001"/>
+  <testcase name="reportDamage()" classname="cs3500.pa03.model.CompTest" time="0.0"/>
+  <testcase name="takeShots()" classname="cs3500.pa03.model.CompTest" time="0.001"/>
+  <system-out><![CDATA[opponent shots: 6
+number unsunk 5
+shot list 100
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

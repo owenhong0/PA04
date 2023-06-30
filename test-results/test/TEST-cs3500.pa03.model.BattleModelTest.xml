@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cs3500.pa03.model.BattleModelTest" tests="30" skipped="0" failures="0" errors="0" timestamp="2023-06-12T21:13:12" hostname="Owens-MacBook-Pro.local" time="0.016">
+  <properties/>
+  <testcase name="showP1Shots()" classname="cs3500.pa03.model.BattleModelTest" time="0.001"/>
+  <testcase name="addCompShips()" classname="cs3500.pa03.model.BattleModelTest" time="0.001"/>
+  <testcase name="getP1Board()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="getP2Board()" classname="cs3500.pa03.model.BattleModelTest" time="0.001"/>
+  <testcase name="showOppShots()" classname="cs3500.pa03.model.BattleModelTest" time="0.001"/>
+  <testcase name="getSmallestDim()" classname="cs3500.pa03.model.BattleModelTest" time="0.001"/>
+  <testcase name="setP2EndMessage()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="allSunk()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="randomShots()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="checkFleet()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="checkShots()" classname="cs3500.pa03.model.BattleModelTest" time="0.001"/>
+  <testcase name="allUnsunk()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="addP1Board()" classname="cs3500.pa03.model.BattleModelTest" time="0.001"/>
+  <testcase name="addP1Ships()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="addP2Board()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="getHeight()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="updateP1Board()" classname="cs3500.pa03.model.BattleModelTest" time="0.001"/>
+  <testcase name="updateP2Board()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="convertFleet()" classname="cs3500.pa03.model.BattleModelTest" time="0.001"/>
+  <testcase name="convertShots()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="setP1EndMessage()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="setDimensions()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="setRandomFleet()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="checkDimensions()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="getEndMessages()" classname="cs3500.pa03.model.BattleModelTest" time="0.001"/>
+  <testcase name="getBoardsToDisplay()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="getEndP1()" classname="cs3500.pa03.model.BattleModelTest" time="0.001"/>
+  <testcase name="getEndP2()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="getShips()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <testcase name="getWidth()" classname="cs3500.pa03.model.BattleModelTest" time="0.0"/>
+  <system-out><![CDATA[number unsunk 0
+shot list 2
+- - - - - - - - - - 
+- M - - - - - - - - 
+- - M - - - - - - - 
+- M - - - - - - - - 
+- - M - - - - - - - 
+- - - - - - - - - - 
+- - - - - - - - - - 
+- - - - - - - - - - 
+- - - - - - - - - - 
+- - - - - - - - - - 
+
+- - - - - - - - - - 
+- M - - - - - - - - 
+- - M - - - - - - - 
+- M - - - - - - - - 
+- - M - - - - - - - 
+- - - - - - - - - - 
+- - - - - - - - - - 
+- - - - - - - - - - 
+- - - - - - - - - - 
+- - - - - - - - - - 
+
+X: 1 Y: 1
+X: 2 Y: 2
+X: 1 Y: 1
+X: 2 Y: 2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

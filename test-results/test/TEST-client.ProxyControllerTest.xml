@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="client.ProxyControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-06-12T21:13:12" hostname="Owens-MacBook-Pro.local" time="0.389">
+  <properties/>
+  <testcase name="testTakeShots()" classname="client.ProxyControllerTest" time="0.331"/>
+  <testcase name="testEndGame()" classname="client.ProxyControllerTest" time="0.027"/>
+  <testcase name="testSetup()" classname="client.ProxyControllerTest" time="0.006"/>
+  <testcase name="testJoin()" classname="client.ProxyControllerTest" time="0.004"/>
+  <testcase name="testSuccessfulHits()" classname="client.ProxyControllerTest" time="0.01"/>
+  <testcase name="testReportDamage()" classname="client.ProxyControllerTest" time="0.008"/>
+  <system-out><![CDATA[height so Y cant be > : 10
+width so X cant be > : 10
+number unsunk 4
+shot list 100
+4
+height so Y cant be > : 10
+width so X cant be > : 10
+number unsunk 4
+shot list 100
+4
+opponent shots: 2
+{"method-name":"setup","arguments":{"fleet":[{"coord":{"x":0,"y":3},"length":6,"direction":"HORIZONTAL"},{"coord":{"x":7,"y":3},"length":5,"direction":"VERTICAL"},{"coord":{"x":3,"y":6},"length":4,"direction":"HORIZONTAL"},{"coord":{"x":4,"y":7},"length":3,"direction":"HORIZONTAL"}]}}
+{"method-name":"take-shots","arguments":{"coordinates":[{"x":2,"y":0},{"x":5,"y":0},{"x":7,"y":7},{"x":7,"y":5}]}}
+{"method-name":"report-damage","arguments":{"coordinates":[]}}
+{"method-name":"successful-hits","arguments":"void"}
+{"result":null,"reason":null}
+
+height so Y cant be > : 10
+width so X cant be > : 10
+{"method-name":"join","arguments":{"name":"owenhong0","game-type":"SINGLE"}}
+
+height so Y cant be > : 10
+width so X cant be > : 10
+number unsunk 4
+shot list 100
+4
+opponent shots: 2
+height so Y cant be > : 10
+width so X cant be > : 10
+number unsunk 4
+shot list 100
+4
+opponent shots: 2
+]]></system-out>
+  <system-err><![CDATA[Disconnected from server
+Disconnected from server
+Disconnected from server
+Disconnected from server
+Disconnected from server
+]]></system-err>
+</testsuite>
